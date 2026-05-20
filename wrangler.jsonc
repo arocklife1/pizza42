@@ -1,0 +1,16 @@
+{
+    "name": "pizza42",
+    "compatibility_date": "2024-09-23",
+    "compatibility_flags": ["nodejs_compat"],
+    "main": ".svelte-kit/cloudflare/_worker.js",
+    "vars": {
+        "VITE_AUTH0_DOMAIN": "dev-8ohpiql5udw8hwg7.us.auth0.com",
+        "VITE_AUTH0_CLIENT_ID": "Lh3JlgET3xLtc1MDYB17UP2KQFmjaakx",
+        "MGMT_AUTH0_CLIENT_SECRET": "CbqUHDicqh8udKsQVT-Z-O2EQyPD4X7j57sHF9lxKWwugPXd1ouaneVKTnwsDNUq"
+    },
+
+    "assets": {
+        "binding": "ASSETS",
+        "directory": ".svelte-kit/cloudflare"
+    }
+}
